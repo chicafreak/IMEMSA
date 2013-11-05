@@ -1,0 +1,134 @@
+body { 
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 75%; 
+	color:#000; 
+	background-color: transparent; 
+	background-image: none; 
+	margin:0px; 
+	padding:0px; 
+}
+table, tr, td { 
+	border:0px none #008;
+	margin: 0px; 
+	padding: 0px; 
+}
+
+.commontext		{ font-family:arial,sans-serif; 
+	font-size:9pt; color:#000000; 
+}
+
+.P6				{ 
+	font-family:arial,sans-serif; 
+	font-size:6pt; 
+	color:#000000; 
+	text-decoration:none; border:none; 
+}
+.P7				{ 
+	font-family:arial,sans-serif; 
+	font-size:7pt; 
+	color:#000000; 
+	text-decoration:none; 
+	border:none; 
+}
+.P8	   			{ font-family:arial,sans-serif; font-size:8pt; color:#000000; }
+.P9				{ font-family:arial,sans-serif; font-size:9pt; color:#000000; }
+.P10			{ font-family:arial,sans-serif; font-size:10pt; color:#000000; }
+.P11			{ font-family:arial,sans-serif; font-size:11pt; color:#000000; }
+.P12			{ font-family:arial,sans-serif; font-size:12pt; color:#000000; }
+
+/* Header */
+.header		{ 
+font-family: arial, helvetica, sans-serif; 
+font-size: 12pt; 
+color: #666666; 
+letter-spacing: 1px; 
+text-decoration: none; 
+background-image: url('/assets/prod_onePixelDivider.png'); }
+
+/* link box lower white */
+.linkBox						{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #ffffff; text-decoration: none}
+A.linkBoxlink:LINK				{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #ffffff; text-decoration: none}
+A.linkBoxlink:HOVER				{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #e6e6e6; text-decoration: underline}
+A.linkBoxlink:VISITED			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #ffffff; text-decoration: none}
+A.linkBoxlink:VISITED:HOVER		{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #e6e6e6; text-decoration: underline}
+
+/* dropdown Cat Header link */
+.dropdownCat		{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: none}
+A.dropdownCatlink:LINK			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: none}
+A.dropdownCatlink:HOVER			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: underline}
+A.dropdownCatlink:VISITED			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: none}
+A.dropdownCatlink:VISITED:HOVER	{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: underline}
+
+/* dropdown Cat Header Red link */
+.dropdownCatRed		{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #CC0000; text-decoration: none}
+A.dropdownCatRedlink:LINK			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #CC0000; text-decoration: none}
+A.dropdownCatRedlink:HOVER			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #666666; text-decoration: underline}
+A.dropdownCatRedlink:VISITED			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #CC0000; text-decoration: none}
+A.dropdownCatRedlink:VISITED:HOVER	{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #666666; text-decoration: underline}
+
+/* dropdown link */
+.dropdown		{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #333333; text-decoration: none}
+A.dropdownlink:LINK			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #333333; text-decoration: none}
+A.dropdownlink:HOVER			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: underline}
+A.dropdownlink:VISITED			{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #333333; text-decoration: none}
+A.dropdownlink:VISITED:HOVER	{ font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: underline}
+
+/* copyright link */
+.copyright		{ font-family: arial, helvetica, sans-serif; font-size: 7pt; color: #666666; text-decoration: none}
+A.copyrightlink:LINK			{ font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000; text-decoration: none}
+A.copyrightlink:HOVER			{ font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000; text-decoration: underline}
+A.copyrightlink:VISITED			{ font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000; text-decoration: none}
+A.copyrightlink:VISITED:HOVER	{ font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000; text-decoration: underline}
+
+/* Corporate Header */
+.corporateHeader					{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #cc0000; text-decoration: none}
+A.corporateHeaderlink:LINK			{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #cc0000; text-decoration: none}
+A.corporateHeaderlink:HOVER			{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #cc0000; text-decoration: underline}
+A.corporateHeaderlink:VISITED		{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #cc0000; text-decoration: none}
+A.corporateHeaderlink:VISITED:HOVER	{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #cc0000; text-decoration: underline}
+
+/* Corporate Sub Header */
+.corporateSubHeader						{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #666666; text-decoration: none}
+A.corporateSubHeaderlink:LINK			{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #666666; text-decoration: none}
+A.corporateSubHeaderlink:HOVER			{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #666666; text-decoration: underline}
+A.corporateSubHeaderlink:VISITED		{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #666666; text-decoration: none}
+A.corporateSubHeaderlink:VISITED:HOVER	{ font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #666666; text-decoration: underline}
+
+
+
+/* email Boater's Log */
+.headertext		{ font-family:arial,sans-serif; font-size:10pt; color:#025c92; line-height:150%;}
+
+img.bg {
+            /* Establezca reglas para el relleno de fondo */
+            min-height: 100%;
+            min-width: 100%;
+            
+            /* Establecer la escala proporcional */
+            width: 100%;
+            height: 120%;
+            
+            /* Establecer posicion */
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        
+        @media screen and (max-width: 1024px){
+            img.bg {
+                left: 50%;
+                margin-left: -512px; }
+        }
+		
+/*.global{ 
+margin: 5px 0px;!important;
+background:#333;
+_alpha: 50%;
+text-align: center;
+font-family:Helvetica, Geneva, sans-serif;
+font-size:10px;
+color:#999;
+margin-left:100px;
+margin-top:auto;
+
+}

@@ -1,0 +1,108 @@
+#mbox-overlay{
+	background-color:#000;
+	z-index:50000;
+	cursor:pointer
+	}
+	#mbox-mainbox
+	{
+	top:10%;
+	background-color:#fff;
+	padding-top:6px;
+	padding-left:6px;
+	padding-right:4px;
+	padding-bottom:0
+}
+#mbox-filebox
+{
+	margin:0;
+	padding:0;
+	border:0;
+	overflow:hidden
+}
+#mbox-filebox img,
+#mbox-filebox iframe,
+#mbox-filebox swf
+{
+	border:0
+}
+.mbox-filebox-decorations
+{
+	border:0;padding:0
+}
+#mbox-bottom
+{
+	font-family:Arial,Verdana,Geneva,Helvetica,sans-serif;
+	font-size:12px;
+	color:#656565;
+	line-height:1.4em;
+	text-align:left;
+	padding-top:8px;
+	margin:0;
+	display:none
+}
+#mbox-controls{
+	float:right;
+	width:27px;
+	padding-top:3px;
+	border-left:1px solid #9c9c9c}
+#mbox-count{overflow:hidden;
+	padding-top:1px;
+	float:right;
+	text-align:right;
+	font-size:9px
+}
+	#mbox-close,
+	#mbox-prev,
+	#mbox-next,
+	#mbox-playpause
+{
+	float:right;height:19px
+}
+#mbox-prev,
+#mbox-next
+{
+	width:15px
+}
+#mbox-prev
+{
+	background:url(../img/milkprev.gif) no-repeat}#mbox-next
+{
+	background:url(../img/milknext.gif) no-repeat
+}
+
+#mbox-playpause
+{
+	width:13px
+}
+#mbox-playpause
+{
+	background:url(../img/milkplay-pause.gif) no-repeat}#mbox-close
+{
+	width:17px;background:url(../img/milkclose.gif) no-repeat
+}
+#mbox-prev:hover,
+#mbox-next:hover,
+#mbox-close:hover,
+#mbox-playpause:hover
+{
+	background-position:0 -22px
+}
+	#mbox-caption
+{
+	margin-right:27px;
+	padding:0 10px 0 0;
+	font-weight:normal;
+	text-align:justify;
+	overflow-x:hidden
+}
+.mbox-loading{
+		background:url(../img/milkloading.gif) no-repeat center
+	}
+.mbox-reset{
+		clear:both;
+		height:0;
+		margin:0;
+		padding:0;
+		font-size:0;
+		overflow:hidden
+}
