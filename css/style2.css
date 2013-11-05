@@ -178,7 +178,9 @@
 
 	
 	border:3px;
-	margin:0 auto;display:block
+	margin:0 auto;
+	display:block;
+	
 }
 .listproduct .citem a{
 	color:#666;
@@ -186,13 +188,16 @@
 	text-transform:uppercase;
 	font-weight:bold;
 	display:block;
-	padding-top:5px
-}.listproduct .citem a:hover{
+
+	
+}
+
+.listproduct .citem a:hover{
 	color:#de0022
 	}
 .listproduct div.separator{
-	border-top:1px solid #e5e5e5;
-	height:1px
+	border-top:5px solid #e5e5e5;
+	height:5px
 }
 .news{
 		width:980px
@@ -210,7 +215,6 @@
 }
 #container .citem{
 	width:230px;
-	height:186px;
 	text-align:center;
 	float:left;
 	padding-top:5px;
