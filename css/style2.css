@@ -580,5 +580,9 @@ li img{
 #contentizq{
 	float:right;
 	width:320px;
-	margin-top:-450px;
+	margin-top:-550px;
+
+}
+#contentizq img {
+	width:300px;
 }
