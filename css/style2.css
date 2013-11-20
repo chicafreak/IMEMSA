@@ -442,17 +442,18 @@ li img{
 
 
 .specifications li.red{
-	border-bottom:1px solid #f8ccd3;
+	border-bottom:2px solid #f8ccd3;
+	border-spacing: 1em;
 	color:#de0022;
 	font-weight:bold;
-	line-height:20px;
+	line-height:auto;
 	text-align:left;
 	}
 .specifications div.tec span.opciones{
 	width:230px;
 	margin-right:10px;
 	display:inline-block;
-	line-height:16px;
+	line-height:20px;
 	vertical-align:top;
 	text-align:left;
 	font-size:12px;
