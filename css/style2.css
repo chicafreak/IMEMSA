@@ -1,3 +1,4 @@
+
 @charset 'UTF-8';
 /* Starter CSS for Flyout Menu */
 #menusucursales,
@@ -443,7 +444,6 @@ li img{
 
 .specifications li.red{
 	border-bottom:2px solid #f8ccd3;
-	border-spacing: 1em;
 	color:#de0022;
 	font-weight:bold;
 	line-height:auto;
@@ -491,7 +491,7 @@ li img{
 	background-position:0 -544px
 	}
 .specifications div.gal span{
-	width:220px;
+	width:250px;
 	margin-right:10px;
 	display:inline-block;
 	line-height:14px;
